@@ -1,0 +1,28 @@
+{
+  "name": "getcli",
+  "version": "1.0.0",
+  "description": "getcli - Parsing command line options",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "test",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "author": "Weidong Fang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/fangwd/getcli.git"
+  },
+  "devDependencies": {
+    "jest": "^22.4.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}
